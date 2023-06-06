@@ -5,8 +5,8 @@ let string = "My nickname is Logan"
 let splitItem = " "
 
 function pop(arr){
-    arr.length = arr.length - 1
     console.log("Pop: " + arr[arr.length - 1])
+    arr.length = arr.length - 1
 }
 function shift(arr){
     for(let i = 0; i < arr.length - 1; i++){
